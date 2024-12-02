@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tangerine_expansion:tangerine"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tangerine_expansion:peeled_tangerine"
+  }
+}
