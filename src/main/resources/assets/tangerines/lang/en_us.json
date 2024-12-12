@@ -1,0 +1,16 @@
+{
+  "item.tangerines.tangerine": "Tangerine",
+  "item.tangerines.peeled_tangerine": "Peeled Tangerine",
+  "item.tangerines.tangerine_peel": "Tangerine Peel",
+  "item.tangerines.tangerine_peel_fabric": "Tangerine Peel Fabric",
+  "item.tangerines.tangerine_cap": "Tangerine Cap",
+
+  "block.tangerines.orangewood_log": "Orangewood Log",
+  "block.tangerines.orangewood_wood": "Orangewood Wood",
+  "block.tangerines.orangewood_planks": "Orangewood Planks",
+  "block.tangerines.orangewood_leaves": "Orangewood Leaves",
+  "block.tangerines.stripped_orangewood_log": "Stripped Orangewood Log",
+  "block.tangerines.stripped_orangewood_wood": "Stripped Orangewood Wood",
+
+  "creative_tab.tangerines_tab": "Tangerine Expansion"
+}

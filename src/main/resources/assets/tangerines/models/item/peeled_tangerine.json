@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "tangerines:item/peeled_tangerine_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "tangerines:item/peeled_tangerine_2d"
+    },
+    "fixed": {
+      "parent": "tangerines:item/peeled_tangerine_2d"
+    }
+  }
+}

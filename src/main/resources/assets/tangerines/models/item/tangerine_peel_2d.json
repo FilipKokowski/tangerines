@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tangerines:item/tangerine_peel"
+  }
+}
