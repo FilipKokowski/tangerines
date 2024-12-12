@@ -21,12 +21,13 @@ public class ModBlockLootTables extends BlockLootSubProvider{
     @Override
     public void generate(){
         this.dropSelf(ModBlocks.ORANGEWOOD_LOG.get());
-        this.dropSelf(ModBlocks.ORANGEWOOD_LEAVES.get());
         this.dropSelf(ModBlocks.ORANGEWOOD_WOOD.get());
         this.dropSelf(ModBlocks.ORANGEWOOD_PLANKS.get());
         this.dropSelf(ModBlocks.STRIPPED_ORANGEWOOD_WOOD.get());
         this.dropSelf(ModBlocks.STRIPPED_ORANGEWOOD_LOG.get());
 
+        this.add(ModBlocks.ORANGEWOOD_LEAVES.get(),
+                block -> createLeavesDrops(block, ModBlocks.ORANGEWOOD_LEAVES.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
     }
 

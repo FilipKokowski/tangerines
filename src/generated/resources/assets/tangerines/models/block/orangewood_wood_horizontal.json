@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "tangerines:block/orangewood_log",
+    "side": "tangerines:block/orangewood_log"
+  }
+}

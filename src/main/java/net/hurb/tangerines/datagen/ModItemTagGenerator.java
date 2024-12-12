@@ -1,9 +1,12 @@
 package net.hurb.tangerines.datagen;
 
 import net.hurb.tangerines.McMod;
+import net.hurb.tangerines.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -17,6 +20,15 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.ORANGEWOOD_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_ORANGEWOOD_LOG.get().asItem())
+                .add(ModBlocks.ORANGEWOOD_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_ORANGEWOOD_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.ORANGEWOOD_PLANKS.get().asItem());
 
     }
 }

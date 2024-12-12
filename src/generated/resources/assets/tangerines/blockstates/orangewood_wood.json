@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tangerines:block/orangewood_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tangerines:block/orangewood_wood"
+    },
+    "axis=z": {
+      "model": "tangerines:block/orangewood_wood_horizontal",
+      "x": 90
+    }
+  }
+}
