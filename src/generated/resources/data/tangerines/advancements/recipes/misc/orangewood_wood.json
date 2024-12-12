@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orangewood_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tangerines:orangewood_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tangerines:orangewood_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_orangewood_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tangerines:orangewood_wood"
+    ]
+  },
+  "sends_telemetry_event": false
+}

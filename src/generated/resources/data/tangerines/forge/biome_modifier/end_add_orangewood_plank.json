@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": "tangerines:end_orangewood_plank_placed",
+  "step": "underground_ores"
+}

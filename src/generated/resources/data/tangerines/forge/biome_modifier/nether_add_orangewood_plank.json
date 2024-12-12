@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "tangerines:nether_orangewood_plank_placed",
+  "step": "underground_ores"
+}

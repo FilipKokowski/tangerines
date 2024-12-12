@@ -23,11 +23,33 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TANGERINE_PEEL_FABRIC.get())
-                .pattern("SS")
-                .pattern("SS")
-                .define('S', ModItems.TANGERINE_PEEL.get())
+                .pattern("XX")
+                .pattern("XX")
+                .define('X', ModItems.TANGERINE_PEEL.get())
                 .unlockedBy(getHasName(ModItems.TANGERINE_PEEL.get()), has(ModItems.TANGERINE_PEEL.get()))
                 .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TANGERINE_CAP.get())
+                .pattern("XXX")
+                .pattern("X X")
+                .define('X', ModItems.TANGERINE_PEEL_FABRIC.get())
+                .unlockedBy(getHasName(ModItems.TANGERINE_PEEL_FABRIC.get()), has(ModItems.TANGERINE_PEEL_FABRIC.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ORANGEWOOD_WOOD.get())
+                .pattern("XX")
+                .pattern("XX")
+                .define('X', ModBlocks.ORANGEWOOD_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.ORANGEWOOD_LOG.get()), has(ModBlocks.ORANGEWOOD_LOG.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_ORANGEWOOD_LOG.get())
+                .pattern("XX")
+                .pattern("XX")
+                .define('X', ModBlocks.STRIPPED_ORANGEWOOD_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.STRIPPED_ORANGEWOOD_LOG.get()), has(ModBlocks.STRIPPED_ORANGEWOOD_LOG.get()))
+                .save(pWriter);
+
 
     }
 }

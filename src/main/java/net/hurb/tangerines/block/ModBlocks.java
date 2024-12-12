@@ -3,6 +3,7 @@ package net.hurb.tangerines.block;
 import net.hurb.tangerines.McMod;
 import net.hurb.tangerines.block.custom.ModFlammableRotatedPillarBlock;
 import net.hurb.tangerines.item.ModItems;
+import net.hurb.tangerines.worldgen.tree.OrangewoodTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.BlockItem;
@@ -11,6 +12,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LeavesBlock;
+import net.minecraft.world.level.block.SaplingBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +27,9 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, McMod.MOD_ID);
 
+
+    public static final RegistryObject<Block> ORANGEWOOD_SAPLING = registerBlock("orangewood_sapling",
+            () -> new SaplingBlock(new OrangewoodTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> ORANGEWOOD_LOG = registerBlock("orangewood_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(3f)));

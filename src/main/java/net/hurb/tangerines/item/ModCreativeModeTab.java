@@ -31,6 +31,8 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.STRIPPED_ORANGEWOOD_WOOD.get());
                         pOutput.accept(ModBlocks.STRIPPED_ORANGEWOOD_LOG.get());
 
+                        pOutput.accept(ModBlocks.ORANGEWOOD_SAPLING.get());
+
 
 
                     })

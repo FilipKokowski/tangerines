@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "S": {
+    "X": {
       "item": "tangerines:tangerine_peel"
     }
   },
   "pattern": [
-    "SS",
-    "SS"
+    "XX",
+    "XX"
   ],
   "result": {
     "item": "tangerines:tangerine_peel_fabric"

@@ -4,7 +4,10 @@ import com.mojang.logging.LogUtils;
 import net.hurb.tangerines.block.ModBlocks;
 import net.hurb.tangerines.item.ModCreativeModeTab;
 import net.hurb.tangerines.item.ModItems;
+import net.hurb.tangerines.item.OnFoodConsumed;
 import net.hurb.tangerines.loot.ModLootModifiers;
+import net.hurb.tangerines.worldgen.tree.ModFoliagePlacers;
+import net.hurb.tangerines.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,12 +40,16 @@ public class McMod
         ModBlocks.register(modEventBus);
         ModCreativeModeTab.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        ModTrunkPlacerTypes.register(modEventBus);
+        ModFoliagePlacers.register(modEventBus);
+
+        MinecraftForge.EVENT_BUS.register(ModItems.class);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(OnFoodConsumed.class);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

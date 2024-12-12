@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "tangerines:tangerine_peel_fabric"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "result": {
+    "item": "tangerines:tangerine_cap"
+  },
+  "show_notification": true
+}

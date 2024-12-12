@@ -1,7 +1,8 @@
-// 1.20.1	2024-12-12T14:40:30.0310764	Block States: tangerines
+// 1.20.1	2024-12-12T20:05:46.0895246	Block States: tangerines
 d9d108ec3cf0334b721f43c2487def179a2c35ef assets/tangerines/blockstates/orangewood_leaves.json
 9cb718d493cfa31991aeef9976faf4744f777e51 assets/tangerines/blockstates/orangewood_log.json
 22e94f7db5e03240ae948adce58d9dbdc9a7fbc1 assets/tangerines/blockstates/orangewood_planks.json
+d2c0c8150867022c54e2eabdc2bb5a356e247828 assets/tangerines/blockstates/orangewood_sapling.json
 627cf67d334a70ba3850456f758e75a45d88444d assets/tangerines/blockstates/orangewood_wood.json
 b1b0b4a638451fd93dd877bb3ed7952a94c1eaa7 assets/tangerines/blockstates/stripped_orangewood_log.json
 be49e85277d80f8477b4bad899e15550572c02f7 assets/tangerines/blockstates/stripped_orangewood_wood.json
@@ -9,6 +10,7 @@ be49e85277d80f8477b4bad899e15550572c02f7 assets/tangerines/blockstates/stripped_
 38f2797c03de20527cad217799564254520bcabe assets/tangerines/models/block/orangewood_log.json
 3d294e116842ede53571e79e70aad515521a48bb assets/tangerines/models/block/orangewood_log_horizontal.json
 76eb6115a0e10d01a4f68f9e4d6f77d050185aba assets/tangerines/models/block/orangewood_planks.json
+3c28d91a0d53d5e473483f79dc35f500559b8d51 assets/tangerines/models/block/orangewood_sapling.json
 e43a9700a776a7063006bb7efb5390c17d9ad1db assets/tangerines/models/block/orangewood_wood.json
 76b219c16a5dc6ea84ec99854d08e1af4330b5be assets/tangerines/models/block/orangewood_wood_horizontal.json
 0ab85b0fc9dceaa3b4bdc9ccba17296498c75d49 assets/tangerines/models/block/stripped_orangewood_log.json

@@ -37,7 +37,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ORANGEWOOD_PLANKS);
 
         leavesBlock(ModBlocks.ORANGEWOOD_LEAVES);
+        saplingBlock(ModBlocks.ORANGEWOOD_SAPLING);
 
+    }
+
+    private void saplingBlock(RegistryObject<Block> block) {
+        simpleBlock(block.get(),
+                models().cross(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+                        blockTexture(block.get())).renderType("cutout"));
     }
 
     private void leavesBlock(RegistryObject<Block> blockRegistryObject) {

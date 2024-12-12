@@ -1,10 +1,12 @@
 package net.hurb.tangerines.datagen;
 
 import net.hurb.tangerines.McMod;
+import net.hurb.tangerines.block.ModBlocks;
 import net.hurb.tangerines.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -23,6 +25,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.TANGERINE_PEEL);
         simpleItem(ModItems.TANGERINE_PEEL_FABRIC);
 
+        saplingItem(ModBlocks.ORANGEWOOD_SAPLING);
+
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> sapling) {
+        return withExistingParent(sapling.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(McMod.MOD_ID, "block/" + sapling.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

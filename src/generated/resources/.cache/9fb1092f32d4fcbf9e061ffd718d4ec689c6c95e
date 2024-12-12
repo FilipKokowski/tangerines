@@ -1,5 +1,11 @@
-// 1.20.1	2024-12-12T14:38:05.2113064	Recipes
+// 1.20.1	2024-12-12T18:26:59.8443464	Recipes
+87d6713edb8b54aebf065673f3c1cb4e86aed13e data/tangerines/advancements/recipes/misc/orangewood_wood.json
 38e59c1300004cc961febce74ca8185cab0c0b37 data/tangerines/advancements/recipes/misc/peeled_tangerine.json
+52ce71ac01993ae0ba23f7bbbd8aea8c63fb7138 data/tangerines/advancements/recipes/misc/stripped_orangewood_log.json
+6504d69201e75f67e3dd8eb35f01109075e0696a data/tangerines/advancements/recipes/misc/tangerine_cap.json
 a982d9d163b2003eb0da7c323a34c204a2d8b258 data/tangerines/advancements/recipes/misc/tangerine_peel_fabric.json
+743987519c26d870c76944d6c35509cbb8533f4a data/tangerines/recipes/orangewood_wood.json
 4368d4bc3cea84dca0dd54358024859981e597bd data/tangerines/recipes/peeled_tangerine.json
-c3cbe32dc7886b769da33ff64247fc45a90cdb88 data/tangerines/recipes/tangerine_peel_fabric.json
+442067f0955f4f5cf8ed5d10e7b801b72ebb1171 data/tangerines/recipes/stripped_orangewood_log.json
+2caf90ca1b61653e5a941365eef0cb1c153309cf data/tangerines/recipes/tangerine_cap.json
+c99108e0af087df275b3918fc585e4a7e4ba16d8 data/tangerines/recipes/tangerine_peel_fabric.json
